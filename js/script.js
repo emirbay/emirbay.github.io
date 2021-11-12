@@ -12,7 +12,7 @@ function changeStylesTheme(){
  function toggleDarkLight() {
     document.body.classList.toggle('dark');
     document.getElementById("svg_background").classList.toggle('cls-2-night');
-    document.getElementById("mjesec_sjaj").classList.toggle('cls-15-night');
+    document.getElementById("moonlight").classList.toggle('cls-15-night');
     document.getElementById("tree_body").classList.toggle('cls-52-night');
     document.getElementById("podloga").classList.toggle('cls-19-night'); 
     document.getElementById("skills").classList.toggle('skill_dark'); 
