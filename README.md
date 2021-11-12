@@ -1,1 +1,0 @@
-# emirbay.github.io
