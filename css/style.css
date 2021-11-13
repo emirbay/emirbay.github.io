@@ -245,7 +245,8 @@ hr {
     width: 88px;
     height: 125px;
     will-change: background-position;
-    animation-name: fly-cycle;
+    animation-name:fly-cycle;
+    -webkit-animation-name: fly-cycle;
     animation-timing-function: steps(10);
     animation-iteration-count: infinite;
   }
@@ -263,6 +264,7 @@ hr {
     transform: scale(1) translateX(30vw);
     will-change: transform;
     animation-name: fly-right-one;
+    -webkit-animation-name: fly-right-one;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
@@ -328,6 +330,17 @@ hr {
  
 
 @media screen and (max-width: 480px) {
+  header ul li {
+    margin-left: 200px;
+}
+
+    header ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 1px 20px;
+      border-radius: 20px;
+  }
+  
   .bird-container {
     top:5%
   }
@@ -1232,42 +1245,38 @@ animation-iteration-count: infinite;
 animation-delay: 1s;
 }
 
-
 @keyframes open {
-  0% { ry: 15.32; }
-  10% { ry: 15.32; }
-  11% { ry: 0; }
-  12% {ry: 15.32}
-  14% { ry: 0; }
-  17% { ry: 15.32; }
-  50% { ry: 15.32; }
-  51% { ry: 0; }
-  53% { ry: 15.32; }
-  80% { ry: 15.32; }
+  0% { ry: 15.32px; }
+  10% { ry: 15.32px; }
+  11% { ry: 0px; }
+  12% {ry: 15.32px;}
+  14% { ry: 0px; }
+  17% { ry: 15.32px; }
+  50% { ry: 15.32px; }
+  51% { ry: 0px; }
+  53% { ry: 15.32px; }
+  80% { ry: 15.32px; }
   82% { ry: 0; }
-  84% { ry: 15.32; }
-  98% { ry: 15.32; }
-  100% { ry: 0; }
+  84% { ry: 15.32px; }
+  98% { ry: 15.32px; }
+  100% { ry: 0px; }
 }
 
 @keyframes open2 {
-  0% { ry: 15.32; }
-  10% { ry: 15.32; }
-  13% { ry: 0; }
-  16% {ry: 15.32}
-  20% { ry: 0; }
-  21% { ry: 15.32; }
-  50% { ry: 15.32; }
-  55% { ry: 0; }
-  80% { ry: 0 }
-  81% { ry: 15.32; }
-  84% { ry: 15.32; }
-  98% { ry: 15.32; }
-  100% { ry: 0; }
+  0% { ry: 15.32px; }
+  10% { ry: 15.32px; }
+  13% { ry: 0px; }
+  16% {ry: 15.32px;}
+  20% { ry: 0px; }
+  21% { ry: 15.32px; }
+  50% { ry: 15.32px; }
+  55% { ry: 0px; }
+  80% { ry: 0px;}
+  81% { ry: 15.32px; }
+  84% { ry: 15.32px; }
+  98% { ry: 15.32px; }
+  100% { ry: 0px; }
 }
- 
-
-
 
 
 footer ul {
