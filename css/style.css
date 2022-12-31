@@ -55,8 +55,10 @@ header .logo {
   text-decoration: none;
   white-space: nowrap;
 }
+
 .logo_box > a > span {
   float:left;
+  transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   align-self: flex-end;
 }
