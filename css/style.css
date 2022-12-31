@@ -334,18 +334,15 @@ hr {
   header {
     padding: 20px 50px;
   }
-  
+
   header ul li {
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
- header ul li a {
-      text-decoration: none;
-      color: #fff;
-      padding: 1px 20px;
-      border-radius: 20px;
+ header ul li a {  
+      padding: 1px 20px; 
   }
 
   .m-display-no {
@@ -363,25 +360,25 @@ hr {
               transform: scale(0.3) translateX(-10vw);
     }
     10% {
-              transform: translateY(3vh) translateX(10vw) scale(0.4);
+              transform: translateY(1vh) translateX(10vw) scale(0.4);
     }
     20% {
-              transform: translateY(4vh) translateX(30vw) scale(0.5);
+              transform: translateY(1vh) translateX(30vw) scale(0.5);
     }
     30% {
-              transform: translateY(5vh) translateX(50vw) scale(0.6);
+              transform: translateY(-3vh) translateX(50vw) scale(0.6);
     }
     40% {
-      transform: translateY(6vh) translateX(60vw) scale(0.6);
+      transform: translateY(-3vh) translateX(60vw) scale(0.6);
     }
     60% {
-        transform: translateY(4vh) translateX(80vw) scale(0.5);
+        transform: translateY(-3vh) translateX(80vw) scale(0.5);
     }
     80% {
-       transform: translateY(2vh) translateX(100vw) scale(0.1);
+       transform: translateY(-1vh) translateX(100vw) scale(0.1);
     }
     100% {
-        transform: translateY(2vh) translateX(100vw) scale(0.0);
+        transform: translateY(1vh) translateX(100vw) scale(0.0);
      }
   }
 }
@@ -395,11 +392,8 @@ hr {
     text-align: right;
 }
 
-    header ul li a {
-      text-decoration: none;
-      color: #fff;
-      padding: 1px 20px;
-      border-radius: 20px;
+    header ul li a {  
+      padding: 1px 20px; 
   }
 
   .bird-container {
