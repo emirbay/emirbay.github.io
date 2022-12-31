@@ -330,15 +330,26 @@ hr {
  
 
 @media screen and (max-width: 480px) {
+
+  header {
+    padding: 20px 50px;
+  }
+  
   header ul li {
-    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
-    header ul li a {
+ header ul li a {
       text-decoration: none;
       color: #fff;
       padding: 1px 20px;
       border-radius: 20px;
+  }
+
+  .m-display-no {
+    display: none;
   }
   
   .bird-container {
@@ -379,7 +390,9 @@ hr {
 
 @media screen and (min-width: 480px) and (max-width: 700px) {
   header ul li {
-    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
     header ul li a {
